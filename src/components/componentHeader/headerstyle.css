@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(225, 237, 230, 1);
+}
+
+.header_nav{
+    display: flex;
+    list-style: none;
+    gap: 58px;
+    align-items: center;
+}
+
+.header_button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    align-items: center;
+    background-image: url('src/assets/shopping-cart (1).png');
+    background-repeat: no-repeat;
+    
+}
+
+.header_corzina {
+    position: relative;
+    
+}
+
+.header_corzina span{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(89, 141, 102, 1);
+    border-radius: 100px;
+    right: 8px;
+    top: 2px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    display: none; /*убрать display: none*/
+    
+}
+
+.header_list a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header_list a:hover{
+    color: rgba(89, 141, 102, 1);
+    transition: 0.3s ease;  
+}
+
+.header_list a:focus{
+    color: rgb(44, 83, 54);
+    transition: 0.2s ease;  
+}
+
+.header_button:hover{
+    background-image: url('src/assets/shopping-cart.png');
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    
+}
+
