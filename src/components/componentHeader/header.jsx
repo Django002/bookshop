@@ -1,9 +1,6 @@
-import './headerstyle.css'
+import './headerstyle.css';
 
-
-
-
-function Header () {
+function Header() {
     return(
         <header>
             <img src="src/assets/Frame 85.png" alt="logo" />

@@ -1,9 +1,13 @@
+import SectionOne from './sections/sectionOne.jsx'
 
 
-
-function Section () {
-    <>
-    </>
+function Section() {
+    return(
+        <>
+            <SectionOne/>
+        </>
+    )
+    
 }
 
 export default Section;
