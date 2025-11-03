@@ -1,0 +1,35 @@
+.SectionTwo_bloc{
+    width: 1110px;
+    margin: 70px  auto 0px auto ;
+
+}
+
+.SectionTwo_sort{
+    display: flex;
+    justify-content: space-between;
+}
+
+.SectionTwo_sort span{
+    font-size: 40px;
+    font-family: "Raleway";
+    color: #2C2D35;
+}
+
+.sort{
+    display: flex;
+    gap: 32px;
+}
+
+.sort button{
+    width: 126px;
+    height: 43px;
+    border-radius: 50px;
+    background-color: #D4E8D9;
+}
+
+.sort button:hover{
+    color: white;
+    background-color: #376B44;
+    transition: 0.5s ease; 
+    cursor: pointer;
+}

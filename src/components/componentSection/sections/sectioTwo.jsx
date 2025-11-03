@@ -6,13 +6,15 @@ function SectionTwo() {
         <div className='SectionTwo_bloc'>
             <div className='SectionTwo_sort'>
                 <span>Репродукции</span>
-                <div className='buton'>
+                <div className='sort'>
                     <button>Франция</button>
                     <button>Германия</button>
                     <button>Англия</button>
                 </div>
             </div>
-            <div className='SectionTwo_bocks'></div>
+            <div className='SectionTwo_bocks'>
+                
+            </div>
         </div>
         </>
     )
