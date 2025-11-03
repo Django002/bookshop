@@ -33,3 +33,11 @@
     transition: 0.5s ease; 
     cursor: pointer;
 }
+
+.sort button:active{
+    color: rgb(0, 0, 0);
+    background-color: #D4E8D9;
+    cursor: pointer;
+    border: 2px solid #376B44 ;
+    transition: 0.3s ease;
+}
