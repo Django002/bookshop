@@ -1,0 +1,77 @@
+.cartra{
+    background-color: #D4E8D9;
+    width: 350px;
+    height: 730px;
+}
+
+.cartra_content {
+    display: block;
+    margin-left: 20px;
+}
+
+.cartra_content img{
+    width: 310px;
+    height: 422px;
+    background-color: #2C2D35;
+    margin-top: 20px;
+}
+
+.cartra_avtor{
+   font-size: 18px;
+   font-weight: 500;
+   color: rgba(134, 146, 139, 1);
+   font-family: "Raleway";
+   margin-top: 20px;
+}
+
+.cartra_bockname{
+    font-size: 30px;
+   font-weight: 500;
+   color: rgb(2, 2, 2);
+   font-family: "Raleway";
+   margin-top: 10px;
+}
+
+.cartra_opisani{
+    font-size: 18px;
+   font-weight: 500;
+   color: rgba(44, 45, 53, 1);
+   font-family: "Raleway";
+   margin-top: 10px;
+}
+
+.cartra_price{
+    font-size: 25px;
+   font-weight: 500;
+   color: rgba(89, 141, 102, 1);
+   font-family: "Raleway";
+   margin-top: 30px;
+}
+
+.cartra_button{
+    width: 310px;
+    height: 65px;
+    border: 1px solid rgba(89, 141, 102, 1);
+    color: rgba(89, 141, 102, 1);
+    background-color: rgba(89, 141, 102, 0);
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Raleway";
+    cursor: pointer;
+}
+
+.cartra_button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(55, 107, 68, 1);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.cartra_button:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(137, 185, 149);
+    cursor: pointer;
+    border: 2px solid #376B44 ;
+    transition: 0.5s ease;
+}
