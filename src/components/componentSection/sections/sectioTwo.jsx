@@ -20,8 +20,8 @@ function SectionTwo() {
                 <Carta/>
                 <Carta/>
                 <Carta/>
-
             </div>
+            <button className='more' type="button">Показать ещё</button>
         </div>
         </>
     )

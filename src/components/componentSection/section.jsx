@@ -1,5 +1,7 @@
 import SectionOne from './sections/sectionOne.jsx'
 import SectionTwo from './sections/sectioTwo.jsx'
+import SectionTree from './sections/sectionthree.jsx'
+import Sectionfour from './sections/sectionfour.jsx'
 
 
 function Section() {
@@ -7,6 +9,8 @@ function Section() {
         <>
             <SectionOne/>
             <SectionTwo/>
+            <SectionTree/>
+            <Sectionfour/>
         </>
     )
     

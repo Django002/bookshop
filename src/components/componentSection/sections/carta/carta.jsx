@@ -12,7 +12,8 @@ function Carta(){
                         <p className='cartra_price'>14 500 руб</p>
                         <button className='cartra_button' type="button">В корзину</button>
                     </div>
-                </div>
+                    
+        </div>
     );
 };
 

@@ -2,10 +2,12 @@
     width: 1110px;
     margin: 70px  auto 0px auto ;
 
+    padding: 5px;
 }
 
 .SectionTwo_sort{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -43,11 +45,70 @@
 }
 
 .SectionTwo_bocks{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    width: 100%;
+    height: 100%;
     gap: 30px;
-    width: 1110px;
-    height: 1490px;
     margin-top: 30px;
+   
+    
+}
+
+.more{
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(89, 141, 102, 1);
+    color: rgb(244, 250, 245);
+    background-color: rgba(89, 141, 102, 1);
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Raleway";
+    cursor: pointer;
+    
+}
+
+.more:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(55, 107, 68, 1);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.more:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(137, 185, 149);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+@media (max-width: 1150px) {
+
+    .SectionTwo_bocks{
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+    }
+    
+    .SectionTwo_bloc{
+        width: 750px;
+        margin: 70px  auto 0px auto ;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .SectionTwo_bocks{
+        grid-template-columns: 350px;
+        justify-content: center;
+    }
+    
+    .SectionTwo_bloc{
+        width: 750px;
+        margin: 70px  auto 0px auto ;
+    }
 }
 
