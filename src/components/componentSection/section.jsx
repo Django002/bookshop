@@ -5,11 +5,11 @@ import Sectionfour from './sections/sectionfour.jsx'
 import Footer from './footer.jsx'
 
 
-function Section() {
+function Section({add}) {
     return(
         <>
             <SectionOne/>
-            <SectionTwo/>
+            <SectionTwo add={add}/>
             <SectionTree/>
             <Sectionfour/>
             <Footer/>

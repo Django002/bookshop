@@ -6,14 +6,13 @@
 
 .cartra_content {
     display: block;
-    margin-left: 20px;
+    padding: 20px;
 }
 
 .cartra_content img{
     width: 310px;
     height: 422px;
     background-color: #2C2D35;
-    margin-top: 20px;
 }
 
 .cartra_avtor{
@@ -25,7 +24,7 @@
 }
 
 .cartra_bockname{
-    font-size: 30px;
+    font-size: 23px;
    font-weight: 500;
    color: rgb(2, 2, 2);
    font-family: "Raleway";

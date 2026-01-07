@@ -6,8 +6,7 @@
     background-size: cover;       /* Заполняет весь блок без искажений */
     background-repeat: no-repeat; /* Запрещает повторение */
     background-position: center;
-    padding-left: 165px;
-    padding-top: 75px;
+    padding: 10px;
 }
 
 .SectionTree_content{
@@ -44,6 +43,12 @@
     font-family: "Raleway";
 }
 
+.Sectionbloc{
+    width: 1110px;
+    height: 100%;
+    margin: 70px auto 0px auto;
+}
+
 .SectionTree button{
     width: 257px;
     height: 65px;
@@ -65,4 +70,33 @@
     background-color: rgba(163, 131, 20, 1);
     border: 2px solid rgba(163, 131, 20, 1);
     transition: 0.8s ease;
+}
+
+
+@media (max-width: 1150px) {
+
+    .Sectionbloc{
+        width: 920px;
+        height: 100%;
+        margin: 70px auto 0px auto;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .Sectionbloc{
+        width: 620px;
+        height: 100%;
+        margin: 70px auto 0px auto;
+    }
+
+    .SectionTree_content h1{ 
+        font-size: 24px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+        
 }

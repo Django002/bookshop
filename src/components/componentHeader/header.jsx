@@ -1,6 +1,9 @@
 import './headerstyle.css';
 
-function Header() {
+function Header({basketCount}) {
+
+    
+
     return(
         <header>
             <img src="src/assets/Frame 85.png" alt="logo" />
@@ -11,10 +14,12 @@ function Header() {
                 <li className='header_list'>
                     <div className='header_corzina'>
                         <button className='header_button'><img src="" alt="" srcset="" /></button>
-                        <span>0</span>
+                        <span>{basketCount}</span>
                     </div>
                 </li>
             </ul>
+
+            
             
         </header>
     )
