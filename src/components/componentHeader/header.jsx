@@ -1,8 +1,10 @@
 import './headerstyle.css';
+import Basket from './componentbasket/basket';
 
-function Header({basketCount}) {
 
-    
+function Header(props) {
+   const {basketCount,basket} = props
+
 
     return(
         <header>
@@ -12,10 +14,7 @@ function Header({basketCount}) {
                 <li className='header_list' ><a href="#">Новинки</a></li>
                 <li className='header_list' ><a href="#">О нас</a></li>
                 <li className='header_list'>
-                    <div className='header_corzina'>
-                        <button className='header_button'><img src="" alt="" srcset="" /></button>
-                        <span>{basketCount}</span>
-                    </div>
+                    <Basket basketCount={basketCount} basket={basket} />
                 </li>
             </ul>
 

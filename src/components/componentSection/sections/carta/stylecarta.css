@@ -74,3 +74,11 @@
     border: 2px solid #376B44 ;
     transition: 0.5s ease;
 }
+
+
+.cartra:hover{
+   cursor: pointer;
+   box-shadow: 0px 0px 10px 5px rgba(70, 69, 69, 0.548);
+   transition: 0.5s ease;
+   transform: scale(1.03);
+}

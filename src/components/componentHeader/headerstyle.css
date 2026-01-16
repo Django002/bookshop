@@ -29,32 +29,13 @@ header{
     
 }
 
-.header_corzina {
-    position: relative;
-    
-}
 
-.header_corzina span{
-    width: 15px;
-    height: 15px;
-    background-color: rgba(89, 141, 102, 1);
-    border-radius: 100px;
-    right: 8px;
-    top: 8px;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    align-content: center;
-    position: absolute;
-    display: block; /*убрать display: none*/
-    
-}
 
 .header_list a{
     text-decoration: none;
     color: black;
-    font-size: 15px;
-    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-family: "Raleway";
     font-weight: 500;
     font-style: normal;
 }

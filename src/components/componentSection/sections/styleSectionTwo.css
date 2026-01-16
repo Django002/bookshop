@@ -1,7 +1,6 @@
 .SectionTwo_bloc{
     width: 1110px;
     margin: 70px  auto 0px auto ;
-
     padding: 5px;
 }
 
@@ -22,21 +21,21 @@
     gap: 32px;
 }
 
-.sort button{
+.sotrbutton{
     width: 126px;
     height: 43px;
     border-radius: 50px;
     background-color: #D4E8D9;
 }
 
-.sort button:hover{
+.sotrbutton:hover{
     color: white;
     background-color: #376B44;
     transition: 0.5s ease; 
     cursor: pointer;
 }
 
-.sort button:active{
+.sotrbutton:active{
     color: rgb(0, 0, 0);
     background-color: #D4E8D9;
     cursor: pointer;
@@ -71,6 +70,13 @@
     
 }
 
+.active{
+    color: white;
+    background-color: #385e41d5;
+    transition: 2s ease-in; 
+    cursor: pointer;
+}
+
 .more:hover{
     color: rgb(255, 255, 255);
     background-color: rgba(55, 107, 68, 1);
@@ -84,6 +90,22 @@
     cursor: pointer;
     transition: 0.5s ease;
 }
+
+
+.no-books-message{
+    width: 1100px;
+    height: 1000px;
+    background-color: #c7c7ca56;
+    box-shadow: 0px 0px 10px 15px #c7c7ca56;
+}
+
+.no-books-message p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50%;
+    color: #6767689a;
+}
+
 
 @media (max-width: 1150px) {
 
