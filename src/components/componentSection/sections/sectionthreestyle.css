@@ -3,8 +3,8 @@
 .SectionTree{
     height: 574px;
     background-image: url(/src/assets/pic_background.png);
-    background-size: cover;       /* Заполняет весь блок без искажений */
-    background-repeat: no-repeat; /* Запрещает повторение */
+    background-size: cover;       
+    background-repeat: no-repeat;
     background-position: center;
     padding: 10px;
     margin-top: 60px;

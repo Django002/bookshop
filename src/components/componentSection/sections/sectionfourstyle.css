@@ -1,10 +1,9 @@
 .Sectionfour{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Центрируем дочерние элементы */
+    justify-content: center; 
     padding: 70px 165px;
     margin: auto;
-    
     box-sizing: border-box;
 }
 

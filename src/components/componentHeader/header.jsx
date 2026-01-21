@@ -3,7 +3,7 @@ import Basket from './componentbasket/basket';
 
 
 function Header(props) {
-   const {basketCount,basket} = props
+   const {basketCount,basket,deleteboock} = props
 
 
     return(
@@ -14,7 +14,7 @@ function Header(props) {
                 <li className='header_list' ><a href="#">Новинки</a></li>
                 <li className='header_list' ><a href="#">О нас</a></li>
                 <li className='header_list'>
-                    <Basket basketCount={basketCount} basket={basket} />
+                    <Basket basketCount={basketCount} basket={basket} deleteboock={deleteboock} />
                 </li>
             </ul>
 

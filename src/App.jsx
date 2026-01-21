@@ -7,7 +7,14 @@ import { useEffect} from 'react'
 
 function App() {
 
-  const [basket, setBasket] = useState([])
+  const [basket, setBasket] = useState(() => {
+    const savedBasket  = localStorage.getItem('basket')
+    return savedBasket  ? JSON.parse(savedBasket ) : []
+  })
+
+  useEffect(() => {
+    localStorage.setItem('basket', JSON.stringify(basket))
+  }, [basket])
 
   function add(books) {
     setBasket(basket => {
@@ -27,7 +34,9 @@ function App() {
 
   const totalItems = basket.reduce((sum, item) => sum + item.quantity, 0);
 
- 
+ const deleteboock = (id) => {
+  setBasket(prevItems  => prevItems .filter(item => item.id !== id));
+ };
 
 
 
@@ -37,7 +46,8 @@ function App() {
     <>
       <Header 
         basketCount={totalItems} 
-        basket={basket}/>
+        basket={basket}
+        deleteboock={deleteboock}/>
       <Section add={add}/>
     </>
   )
