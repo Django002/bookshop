@@ -8,8 +8,13 @@ import { useEffect} from 'react'
 function App() {
 
   const [basket, setBasket] = useState(() => {
-    const savedBasket  = localStorage.getItem('basket')
-    return savedBasket  ? JSON.parse(savedBasket ) : []
+    try {
+      const savedBasket = localStorage.getItem('basket')
+      return savedBasket ? JSON.parse(savedBasket) : []
+    } catch (error) {
+      console.error('Ошибка загрузки корзины:', error)
+      return []
+    }
   })
 
   useEffect(() => {
