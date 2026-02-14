@@ -8,18 +8,17 @@ function Header(props) {
 
     return(
         <header>
-            <img src="src/assets/Frame 85.png" alt="logo" />
-            <ul className='header_nav'>
-                <li className='header_list' ><a href="#">Репродукции</a></li>
-                <li className='header_list' ><a href="#">Новинки</a></li>
-                <li className='header_list' ><a href="#">О нас</a></li>
-                <li className='header_list'>
-                    <Basket basketCount={basketCount} basket={basket} deleteboock={deleteboock} />
-                </li>
-            </ul>
-
-            
-            
+            <div className='headercotent'>
+                <img className='header__logo' src="src/assets/Frame 85.png" alt="logo" />
+                <ul className='header_nav'>
+                    <li className='header_list' ><a href="#">Репродукции</a></li>
+                    <li className='header_list' ><a href="#">Новинки</a></li>
+                    <li className='header_list' ><a href="#">О нас</a></li>
+                    <li className='header_list'>
+                        <Basket basketCount={basketCount} basket={basket} deleteboock={deleteboock} />
+                    </li>
+                </ul>
+            </div>  
         </header>
     )
 }

@@ -2,4 +2,11 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
+	
+}
+
+@media (max-width: 900px) {
+	html {
+  		overflow-x: hidden;
+	}
 }

@@ -63,8 +63,7 @@ function Basket({basketCount,basket,deleteboock}) {
                                     <button 
                                         className='productbutton' 
                                         type="button" 
-                                        onClick={() => deleteboock(item.id)}
-                                    >
+                                        onClick={() => deleteboock(item.id)}>
                                         X
                                     </button>
                                 </div>

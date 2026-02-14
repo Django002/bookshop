@@ -127,3 +127,19 @@
         transform: translateY(0) scale(1);
     }
 }
+
+
+@media (max-width: 900px) {
+
+    .bascetbloc{
+        top: 80px;
+        right: -70px;
+    }
+
+    .bascetblocnull{
+        top: 80px;
+        right: -70px;
+        color: #6f6f70;
+    }
+	
+}
