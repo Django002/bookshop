@@ -111,7 +111,7 @@
 
 .product:hover{
   cursor: pointer;
-  background-color: #c7c7caab;
+  background-color: #c7c7cac5;
   transition: 0.6s ease-in;
   border-radius: 10px;
 }
@@ -142,4 +142,21 @@
         color: #6f6f70;
     }
 	
+}
+
+@media (max-width: 600px) {
+
+    .bascetblocnull{
+        width:500px;
+        right: -70px;
+        
+    }
+
+    .bascetbloc{
+        width:450px;
+        right: -37px;
+        row-gap: 5px;
+    }
+       
+   
 }

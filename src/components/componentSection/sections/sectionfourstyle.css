@@ -5,6 +5,7 @@
     padding: 70px 165px;
     margin: auto;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .Sectionfour_content{
@@ -40,3 +41,25 @@
     margin-top: 20px;
 }
 
+@media (max-width: 620px) {
+
+    .Sectionfour{
+        padding: 70px 20px;
+      
+    }
+
+    .Sectionfour_content{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    .Sectionfourimg{display: none;}
+    .Sectionfour_contentimg{
+        width: 50px;
+        height: 50px;
+    }
+
+    
+
+}   
