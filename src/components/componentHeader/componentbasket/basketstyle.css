@@ -148,13 +148,13 @@
 
     .bascetblocnull{
         width:500px;
-        right: -70px;
+        right: -50px;
         
     }
 
     .bascetbloc{
         width:450px;
-        right: -37px;
+        right: -7px;
         row-gap: 5px;
     }
 }
@@ -162,13 +162,13 @@
 @media (max-width: 480px) {
     .bascetblocnull{
         width:330px;
-        right: -105px;
+        right: -30px;
         
     }
 
     .bascetbloc{
         width:350px;
-        right: -110px;
+        right: -30px;
         row-gap: 5px;
     }
 
