@@ -104,3 +104,11 @@
    
 }
 
+
+@media (max-width: 768px) {
+     .SectionOne_bloc__img{
+        display: none;
+    }
+}
+
+

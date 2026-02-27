@@ -4,17 +4,6 @@
 	border: none;	
 }
 
-@media (max-width: 900px) {
-	html {
-  		overflow-x: hidden;
-	}
-}
-
-@media (max-width: 768px) {
-    body {
-        overflow: hidden; 
-        height: 100vh;    
-        position: fixed;  
-        width: 100%;
-    }
+body {
+  touch-action: pan-y pinch-zoom; /* разрешить только вертикальное перемещение и масштабирование */
 }
