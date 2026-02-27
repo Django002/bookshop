@@ -187,77 +187,75 @@
 }
 
 
-@media (max-width: 1600px) {
-    .bloc {
-        width: 90%;
-        height: auto;
-        max-height: 90vh;
-        flex-direction: column;
-    }
-    
+
+
+@media (max-width: 768px) {
+   
+
     .bloc img {
+        width: 300px;
+        height: 100%;
+        border-radius:  20px 0 0 20px  ;
+    }
+
+    .titlebook{
+        font-size: 20px;
+    }
+
+    .descriptionbook{
+        font-size: 15px;
         width: 100%;
-        height: 300px;
-        border-radius: 20px 20px 0 0;
     }
-    
-    .contentbloc {
-        height: auto;
-        overflow-y: auto;
-        max-height: 60vh;
-    }
-    
-    .descriptionbook {
-        font-size: 24px;
-    }
-    
-    .avtorbook {
-        margin-top: 30px;
-        font-size: 24px;
-    }
-    
-    .blockadd {
-        font-size: 36px;
-        margin-top: 30px;
-    }
-    
-    .pricebook {
-        font-size: 36px;
-    }
-    
-    .addbook {
-        width: 250px;
-        height: 55px;
-        font-size: 18px;
+
+    .pricebook{
+        font-size: 30px;
     }
 }
 
-@media (max-width: 768px) {
-    .titlebook {
-        font-size: 32px;
+@media (max-width: 480px) {
+    .bloc{
+        position: absolute;
+        left: 40px;
     }
-    
-    .descriptionbook {
-        font-size: 20px;
+    .bloc img {
+        width: 150px;
+        height: 100%;
+        border-radius:  20px 0 0 20px  ;
     }
-    
-    .avtorbook {
-        font-size: 20px;
-        gap: 20px;
+
+    .titlebook{
+        font-size: 15px;
     }
-    
-    .blockadd {
-        flex-direction: column;
-        gap: 20px;
-        margin-top: 20px;
-    }
-    
-    .pricebook {
-        font-size: 28px;
-    }
-    
-    .addbook {
+
+    .descriptionbook{
+        margin: 0;
+        font-size: 10px;
         width: 100%;
-        max-width: 300px;
+    }
+
+    .pricebook{
+        font-size: 20px;
+    }
+
+    .bloc {
+        width: 300px;
+        height: 400px;
+    }
+    .pricebook{
+        font-size: 15px;
+    }
+
+    .addbook {
+        width: 80px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .clovsemodal{
+        font-size: 20px;
+    }
+
+    .authorbook{
+        display: none;
     }
 }
