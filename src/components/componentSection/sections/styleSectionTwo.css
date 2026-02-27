@@ -134,23 +134,48 @@
 
 @media (max-width: 770px) {
 
-    .SectionTwo_bloc{
+  .SectionTwo_bloc {
         width: 510px;
     }
-    
-    .more{
+
+    .sort {
+        display: flex;
+        flex-wrap: nowrap;          
+        overflow-x: auto;            
+        -webkit-overflow-scrolling: touch;
+        gap: 32px;                   
+        width: 100%;
+        padding-bottom: 4px;     
+        scrollbar-width: none;       
+        -ms-overflow-style: none;    
+    }
+
+    .sort button {
+        flex: 0 0 auto;            
+        width: 126px;               
+    }
+
+   
+    .more {
         height: 80px;
         font-size: 20px;
     }
+}
 
-    .no-books-message{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+@media (max-width: 480px) {
+    .SectionTwo_bloc {
+        width: 350px;  
     }
-
-    .sort{
-        overflow-x:hidden;
+    .SectionTwo_bocks{
+        display: grid;
+        grid-template-columns: 350px ;
+    }
+    
+    .more{
+        width: 240px;
+        height: 60px;
+        font-size: 17px;
+        margin-left: 80px;
     }
 }
 
