@@ -170,13 +170,14 @@
     .SectionTwo_bocks{
         display: grid;
         grid-template-columns: 350px ;
+        margin-left: 60px;
     }
     
     .more{
         width: 240px;
         height: 60px;
         font-size: 17px;
-        margin-left: 80px;
+        margin-left: 60px;
     }
 
     .no-books-message{
