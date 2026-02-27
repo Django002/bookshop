@@ -126,6 +126,7 @@
 
     .sort{
         overflow-x:hidden;
+        width: 100%;
     }
 }
 
@@ -176,6 +177,14 @@
         height: 60px;
         font-size: 17px;
         margin-left: 80px;
+    }
+
+    .no-books-message{
+        width: 100%;
+    }
+
+    .no-books-message p{
+        color: #6767685b;
     }
 }
 
