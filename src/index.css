@@ -1,9 +1,7 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	border: none;
-	overflow-x: hidden;
-	
+	border: none;	
 }
 
 @media (max-width: 900px) {
@@ -12,3 +10,11 @@
 	}
 }
 
+@media (max-width: 768px) {
+    body {
+        overflow: hidden; 
+        height: 100vh;    
+        position: fixed;  
+        width: 100%;
+    }
+}

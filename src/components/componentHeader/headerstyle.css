@@ -157,11 +157,11 @@ header{
     }
 
     .mobilemenu{
-        padding: 16px;
+        padding: 10px;
         border-top: 1px solid rgba(195, 209, 198, 1);
         display: flex;
         width: 400px;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
     }
 

@@ -161,14 +161,14 @@
 
 @media (max-width: 480px) {
     .bascetblocnull{
-        width:300px;
-        right: -70px;
+        width:330px;
+        right: -105px;
         
     }
 
     .bascetbloc{
         width:350px;
-        right: -37px;
+        right: -110px;
         row-gap: 5px;
     }
 
