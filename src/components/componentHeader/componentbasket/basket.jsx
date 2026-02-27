@@ -1,9 +1,14 @@
 import './basketstyle.css'
 import {useState, useRef, useEffect} from 'react'
+import bascetclose from '../../../assets/shopping-cart(1).png'
+import bascetopen from '../../../assets/shopping-cart.png';
+
 
 function Basket({basketCount,basket,deleteboock}) {
 
     const [openbasket, setOpenbasket] = useState(false)
+
+    const cartIcon = openbasket ? bascetopen : bascetclose;
 
     const basketRef = useRef(null)
 
@@ -42,7 +47,7 @@ function Basket({basketCount,basket,deleteboock}) {
 
     return(
         <div className='header_corzina'>
-            <button className='header_button' onClick={() => setOpenbasket(!openbasket)}><img src="src/assets/shopping-cart (1).png" alt="" srcset="" /></button>
+            <button className='header_button' onClick={() => setOpenbasket(!openbasket)}><img src={cartIcon} alt="" srcset="" /></button>
                 {basketCount > 0 && (
                 <span className="cart-count-mobile">{basketCount}</span>)}
            

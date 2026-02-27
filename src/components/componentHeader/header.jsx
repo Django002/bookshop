@@ -1,6 +1,7 @@
 import './headerstyle.css';
 import Basket from './componentbasket/basket';
 import { useState } from 'react';
+import logo from '../../assets/Frame 85.png'
 
 
 function Header(props) {
@@ -15,7 +16,7 @@ function Header(props) {
     return(
         <header>
             <div className='headercotent'>
-                <img className='header__logo' src="src/assets/Frame 85.png" alt="logo" />
+                <img className='header__logo' src={logo} alt="logo" />
 
                 <div className='desctopMenu'>
                     <ul className='header_nav'>
