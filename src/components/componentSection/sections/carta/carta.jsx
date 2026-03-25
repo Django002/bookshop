@@ -6,7 +6,7 @@ import { useState} from 'react'
 function Carta(props){
     const {id,title,author,price,image,add,paperInfo,description} = props
     const [modalopen, setModalopen] = useState(false)
-    const imageUrl = (`src/assets/bookimg/${image}`);
+    const imageUrl = `/src/assets/bookimg/${image}`;
 
     const handleClick = (e) => {
         e.stopPropagation();
@@ -15,7 +15,7 @@ function Carta(props){
             title: title,
             author: author,
             price: price,
-            image: imageUrl
+            image: image
         };
         
         add(book);
