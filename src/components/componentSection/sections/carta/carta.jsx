@@ -6,7 +6,7 @@ import { useState} from 'react'
 function Carta(props){
     const {id,title,author,price,image,add,paperInfo,description} = props
     const [modalopen, setModalopen] = useState(false)
-
+    const imageUrl = (`src/assets/bookimg/${image}`);
 
     const handleClick = (e) => {
         e.stopPropagation();
@@ -15,7 +15,7 @@ function Carta(props){
             title: title,
             author: author,
             price: price,
-            image: image
+            image: imageUrl
         };
         
         add(book);
@@ -34,10 +34,10 @@ function Carta(props){
     }
 
     return(
-        <div>
+        <>
             <div className='cartra' onClick={() => setModalopen(true)}>
                 <div className='cartra_content' key={id}>
-                    <img src={image} alt="" srcset="" />
+                    <img src={imageUrl} alt="" srcset="" />
                     <p className='cartra_avtor'>{author}</p>
                     <h3 className='cartra_bockname'>{socrashni(title)}</h3>
                     <p className='cartra_opisani'>{paperInfo} </p>
@@ -51,7 +51,7 @@ function Carta(props){
                 title={title}
                 author={author}
                 price={price}
-                image={image}
+                imageUrl={imageUrl}
                 paperInfo={paperInfo}
                 onClose={closeModal}
                 addToCart={handleClick}
@@ -59,7 +59,7 @@ function Carta(props){
                 isOpen={modalopen}
             />
             
-        </div>
+        </>
         
         
     );

@@ -9,6 +9,7 @@ function SectionTwo({add}) {
     const [visibleCount, setVisibleCount] = useState(6);
     const [countryFilter, setCountryFilter] = useState('all');
     
+    
     function addbocks() {
         setVisibleCount(visibleCount + 6)
     }

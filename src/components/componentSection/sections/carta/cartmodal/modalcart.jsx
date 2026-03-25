@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import "./modalcart.css";
 
 function Modalcart(props) {
-    const {title,author,price,image,addToCart,onClose,description,isOpen} = props;
+    const {title,author,price,imageUrl,addToCart,onClose,description,isOpen} = props;
 
     useEffect(() => {
         if (isOpen) {
@@ -35,7 +35,7 @@ function Modalcart(props) {
     return (
         <div className={`bacgroundbloc ${isOpen ? 'modal-open' : 'modal-closed'}`} onClick={onClose}>
             <div className="bloc" onClick={handleContentClick}>
-                <img src={image} alt={title} />
+                <img src={imageUrl} alt={title} />
                 <div className="contentbloc">
                     <button className="clovsemodal" onClick={onClose}>X</button>
                     <p className="titlebook">{title}</p>
