@@ -66,7 +66,11 @@ function SectionTwo({add}) {
                  />))} 
             </div>
 
-            {filteredBooks.length === 0 ? '' : visibleCount < Books.length && (<button className='more' type="button" onClick={addbocks} >Показать ещё</button>)}
+            {visibleCount < filteredBooks.length && (
+            <button className='more' type="button" onClick={addbocks}>
+            Показать ещё
+            </button>
+      )}
                 
         </div>
         </>

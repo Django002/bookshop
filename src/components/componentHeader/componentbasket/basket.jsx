@@ -61,7 +61,7 @@ function Basket({basketCount,basket,deleteboock}) {
                         <div className='bascetbloc'>
                             {basket.map(item => (
                                 <div className='product' key={item.id}>
-                                    <img src={item.image} alt="" />
+                                    <img src={`/src/assets/bookimg/${item.image}`} alt="" />
                                     <p className='producttitle'>{item.title}</p>
                                     <p className='productprice'>{item.price}</p>
                                     <p className='productquantity'>{item.quantity}</p>
